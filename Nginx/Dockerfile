@@ -4,7 +4,7 @@ RUN apt-get update
 RUN apt-get install nginx -y zip curl
 
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
-RUN git clone https://github.com/gabrielecirulli/2048.git
+RUN https://github.com/gabrielecirulli/2048.git
 WORKDIR /var/www/html/
 RUN mv 2048/* .
 
