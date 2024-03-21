@@ -2,7 +2,7 @@ version: '3.8'
 
 services :
   databaseimg:
-    build: ./database
+    build: ./Database
     environment:
       MYSQL_ROOT_PASSWORD: "1234"
       MYSQL_DATABASE: "studentapp"
@@ -21,7 +21,7 @@ services :
     network_mode: bridge
 
   frontendimg:
-    build: ./Froentend
+    build: ./Frontend
     ports:
       - "80:80"
     depends_on:
