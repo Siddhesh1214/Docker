@@ -27,3 +27,4 @@ services :
     depends_on:
       - backendimg
     network_mode: bridge
+    
