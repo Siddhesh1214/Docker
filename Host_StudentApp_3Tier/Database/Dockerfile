@@ -1,7 +1,7 @@
 
 FROM  mysql:latest
 LABEL app="mysql"
-LABEL Author="Mayur"
+LABEL Author="Siddhesh"
 
 RUN chown -R mysql:root /var/lib/mysql/
 
