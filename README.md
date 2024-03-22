@@ -85,7 +85,7 @@ Before you start, ensure you have Docker installed on your machine. If not, you 
 
 ---
 
-# Python Flask Application Dockerization
+# Hosted Python Flask Application Using Docker
 
 Welcome to the Dockerized version of the Python Flask application! This repository provides the necessary files to quickly deploy your Flask app using Docker.
 
@@ -128,3 +128,51 @@ Before you begin, ensure you have Docker installed on your machine. If not, you 
     ```
     http://localhost:5000
     ```
+---
+
+# Hosted Node.js Chat Application Using Docker
+
+Welcome to the Dockerized version of the Node.js chat application! This repository contains the necessary files to quickly deploy your chat application using Docker.
+
+### Description
+
+This Node.js chat application allows users to communicate in real-time using WebSocket technology. It's a simple and scalable solution for implementing chat functionality in web applications.
+
+### Prerequisites
+
+Before you begin, ensure you have Docker installed on your machine. If not, you can install it by following the instructions in the [official Docker documentation](https://docs.docker.com/get-docker/).
+
+### Installation and Usage
+
+1. Clone this repository:
+
+    ```bash
+    git clone https://github.com/Siddhesh1214/Docker.git
+    ```
+
+2. Navigate to the `NodeJS/nodejs-chat-app` directory:
+
+    ```bash
+    cd Docker/NodeJS/nodejs-chat-app
+    ```
+
+3. Build the Docker image:
+
+    ```bash
+    docker build -t chat-app .
+    ```
+
+4. Run the Docker container:
+
+    ```bash
+    docker run -d -p 3000:3000 chat-app
+    ```
+
+5. Access the chat application in your web browser:
+
+    ```
+    http://localhost:3000
+    ```
+
+---
+
