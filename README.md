@@ -81,3 +81,50 @@ Before you start, ensure you have Docker installed on your machine. If not, you 
 ### How to Play
 
 2048 is a single-player sliding block puzzle game. The objective is to slide numbered tiles on a grid to combine them and create a tile with the number 2048. Use the arrow keys to move the tiles in the respective direction.
+
+
+---
+
+# Python Flask Application Dockerization
+
+Welcome to the Dockerized version of the Python Flask application! This repository provides the necessary files to quickly deploy your Flask app using Docker.
+
+## Description
+
+This Flask application serves as a template or example for building web applications using Python Flask. It demonstrates how to containerize a Flask app with Docker for easier deployment and portability.
+
+## Prerequisites
+
+Before you begin, ensure you have Docker installed on your machine. If not, you can install it by following the instructions in the [official Docker documentation](https://docs.docker.com/get-docker/).
+
+## Installation and Usage
+
+1. Clone this repository:
+
+    ```bash
+    git clone https://github.com/Siddhesh1214/Docker.git
+    ```
+
+2. Navigate to the `Python-Flask` directory:
+
+    ```bash
+    cd Docker/Python-Flask
+    ```
+
+3. Build the Docker image:
+
+    ```bash
+    docker build -t flask-app .
+    ```
+
+4. Run the Docker container:
+
+    ```bash
+    docker run -d -p 5000:5000 flask-app
+    ```
+
+5. Access the Flask application in your web browser:
+
+    ```
+    http://localhost:5000
+    ```
