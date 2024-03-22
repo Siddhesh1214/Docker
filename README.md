@@ -1,9 +1,14 @@
-#Docker
+# Docker
 
-
-├── Database/
-│ └── Dockerfile
-├── Backend/
-│ └── Dockerfile
-└── Frontend/
-└── Dockerfile
+## HOST T
+.
+├── backend
+│   ├── Dockerfile
+│   ...
+├── db
+│   └── password.txt
+├── compose.yaml
+├── frontend
+│   ├── ...
+│   └── Dockerfile
+└── README.md
