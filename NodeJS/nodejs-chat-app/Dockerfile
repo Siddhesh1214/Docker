@@ -1,9 +1,11 @@
 FROM ubuntu:latest
 LABEL app="nodejs"
-LABEL Author="Mayur"
+LABEL Author="Siddhesh"
 
 RUN  apt update 
 RUN  apt install nodejs npm -y
+
+COPY . .
 
 RUN npm install
 
